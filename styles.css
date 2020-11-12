@@ -1,0 +1,82 @@
+body {
+  background-color: #101316;
+  text-align: center;
+}
+
+h1 {
+  color: #ebebeb;
+  font-family: "Metal Mania", cursive;
+  letter-spacing: 5px;
+  font-size: 3.5rem;
+  padding-top: 60px;
+  /* text-shadow: 3px 0 #a4b494; */
+}
+
+footer {
+  color: #ebebeb;
+  font-family: cursive;
+}
+
+.w {
+  background-image: url("images/crash.png");
+}
+
+.a {
+  background-image: url("images/kick.png");
+}
+
+.s {
+  background-image: url("images/snare.png");
+}
+
+.d {
+  background-image: url("images/tom1.png");
+}
+
+.j {
+  background-image: url("images/tom2.png");
+}
+
+.k {
+  background-image: url("images/tom3.png");
+}
+
+.l {
+  background-image: url("images/tom4.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #422c44;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #59405c;
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #59405c;
+  text-shadow: 3px 0 #a4b494;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #ebebeb;
+}
